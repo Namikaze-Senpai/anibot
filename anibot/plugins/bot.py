@@ -410,7 +410,7 @@ async def stats_(client: anibot, message: Message, mdata: dict):
     s = await SP_GRPS.estimated_document_count()
     a = await AG.estimated_document_count()
     c = await CR_GRPS.estimated_document_count()
-    kk = requests.get("https://api.github.com/repos/lostb053/anibot").json()
+    kk = requests.get("https://api.github.com/repos/Namikaze-Senpai/anibot").json()
     await x.edit_text(f"""
 Stats:-
 
