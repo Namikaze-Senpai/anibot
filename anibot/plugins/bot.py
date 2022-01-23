@@ -341,7 +341,7 @@ Use /feedback cmd to contact bot owner'''
             text="""Owners / Sudos can also use
 
 - __/term__ `to run a cmd in terminal`
-- __/eval__ `to run a python code (code must start right after cmd like `__/eval print('UwU')__`)`
+- __/eval__ `to run a python code (code must start right after cmd like `__/eval print('Ara~Ara')__`)`
 - __/stats__ `to get stats on bot like no. of users, grps and authorised users`
 - __/dbcleanup__ `to remove obsolete/useless entries in database`
 
@@ -446,7 +446,7 @@ async def pong_(client: anibot, message: Message, mdata: dict):
 @control_user
 async def feed_(client: anibot, message: Message, mdata: dict):
     owner = (await client.get_users(OWNER[0])).username
-    await client.send_message(mdata['chat']['id'], f"For issues or queries please contact @{owner} or join @hanabi_support")
+    await client.send_message(mdata['chat']['id'], f"For issues or queries please contact @{owner} or join @Anime_Stash_Chat")
 
 ###### credits to @NotThatMF on tg since he gave me the code for it ######
 
