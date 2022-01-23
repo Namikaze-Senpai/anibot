@@ -60,7 +60,7 @@ async def anime_cmd(client: Client, message: Message, mdata: dict):
     if find_gc is not None and 'anime' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /anime Kono Oto Tomare ")
+        k = await message.reply_text("Please give a query to search about\nexample: /anime Kono Oto Tomare")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
@@ -105,7 +105,7 @@ async def manga_cmd(client: Client, message: Message, mdata: dict):
     if find_gc is not None and 'manga' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /manga Undead Unluck ")
+        k = await message.reply_text("Please give a query to search about\nexample: /manga Undead Unluck")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
@@ -149,7 +149,7 @@ async def character_cmd(client: Client, message: Message, mdata: dict):
     if find_gc is not None and 'character' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /character Kagura ")
+        k = await message.reply_text("Please give a query to search about\nexample: /character Kagura")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
@@ -179,7 +179,7 @@ async def anilist_cmd(client: Client, message: Message, mdata: dict):
     if find_gc is not None and 'anilist' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /anilist Charlotte ")
+        k = await message.reply_text("Please give a query to search about\nexample: /anilist Charlotte")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
@@ -270,7 +270,7 @@ async def airing_cmd(client: Client, message: Message, mdata: dict):
     if find_gc is not None and 'airing' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /airing One Piece ")
+        k = await message.reply_text("Please give a query to search about\nexample: /airing One Piece")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
